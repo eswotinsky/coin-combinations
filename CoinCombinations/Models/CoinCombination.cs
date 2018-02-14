@@ -7,11 +7,12 @@ namespace CoinCombinations.Models
   public class CoinCombination
   {
     private int _userInput;
+    // the following 4 must be static in order to reference them in our HomeController, because our HomeController looks at the CoinCombination class as a whole, rather than at a specific instance of CoinCombination
     private double _quarterCount;
     private double _dimeCount;
     private double _nickelCount;
     private double _pennyCount;
-    private static List<double> _coinCounts = new List<double> {};
+    private List<double> _coinCounts = new List<double> {};
 
     public CoinCombination(string userInput)
     {
