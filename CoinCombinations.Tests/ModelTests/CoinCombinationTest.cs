@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CoinCombinations;
+using CoinCombinations.Models;
 
 namespace CoinCombinations.TestTools
 {

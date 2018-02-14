@@ -1,10 +1,10 @@
 #### Specifications
 
-  * Program should check whether user input is a number. If not, it should prompt them to enter a number.
-  * Next, if a user enters 1 (cent), the output should return 1 penny.
-  * Next, for each cent entered by the user, the output should return a corresponding number of pennies.
-  * Next, if a user enters 5 cents, the output should return a nickel.
-  * Next, for each multiple of 5 entered by the user, the output should return a corresponding number of nickels.
+  √* Program should check whether user input is a number. If not, it should prompt them to enter a number.  
+  √* Next, if a user enters 1 (cent), the output should return 1 penny.
+  √* Next, for each cent entered by the user, the output should return a corresponding number of pennies.
+  √* Next, if a user enters 5 cents, the output should return a nickel.
+  √* Next, for each multiple of 5 entered by the user, the output should return a corresponding number of nickels.
     * Next, for each cent left over after calculating the number of nickels, the output should return a corresponding number of pennies.
       Example input: 7
       Example output: 1 nickel, 2 pennies.
