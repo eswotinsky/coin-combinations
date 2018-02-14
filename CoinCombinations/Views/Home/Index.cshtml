@@ -16,9 +16,12 @@
 
   <div>
     <ul>
+      @if(Model != null)
+      {
         <li>@Model[0] quarters</li>
         <li>@Model[1] dimes</li>
         <li>@Model[2] nickels</li>
         <li>@Model[3] pennies</li>
+      }
     </ul>
   </div>

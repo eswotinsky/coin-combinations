@@ -9,9 +9,7 @@ namespace CoinCombinations.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
-      CoinCombination placeholder = new CoinCombination("0");
-      List<double> placeholderCoins = placeholder.GetCoinCount();
-      return View(placeholderCoins);
+      return View();
     }
 
     [HttpPost("/")]
