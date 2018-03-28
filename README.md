@@ -1,27 +1,33 @@
-#### Specifications
+# Coin Combination Calculator
 
-  * Program should check whether user input is a number. If not, it should prompt them to enter a number.  
-  * Next, if a user enters 1 (cent), the output should return 1 penny.
-  * Next, for each cent entered by the user, the output should return a corresponding number of pennies.
-  * Next, if a user enters 5 cents, the output should return a nickel.
-  * Next, for each multiple of 5 entered by the user, the output should return a corresponding number of nickels.
-    * Next, for each cent left over after calculating the number of nickels, the output should return a corresponding number of pennies.
-      Example input: 7
-      Example output: 1 nickel, 2 pennies.
+A simple web interface that allows users to enter a number and returns the smallest possible combination of U.S. coins that add up to the given number. Built to practice using C# and ASP.NET.
 
-  * Next, if a user enters 10 cents, the output should return a dime.
-  * Next, for each multiple of 10 entered by the user, the output should return a corresponding number of dimes.
-    * Next, for each cent left over after calculating the number of dimes, the output should return a corresponding number of nickels and/or pennies.
-      Example input: 18
-      Example output: 1 dime, 1 nickel, 3 pennies
+## Setup
 
-  * Next, if a user enters 25 cents, the output should return a quarter.
-  * Next, for each multiple of 25 entered by the user, the output should return a corresponding number of quarters.
-    * Next, for each cent left over after calculating the number of quarters, the output should return a corresponding number of dimes/nickels/pennies.
-      Example input: 35
-      Example output: 1 quarter, 1 dime.
-      Example input: 59
-      Example output: 2 quarters, 1 nickel, 4 pennies.
+1. Install ASP.NET, if not already present in your local environment.
+2. Clone this repository.
+3. Within your preferred shell, navigate to the project folder and run the following:
+
+  ```dotnet restore```
+(this may take a moment to complete)
+
+  ```dotnet run```
+4. Navigate to localhost:5000 in your preferred browser.
 
 
-<!-- maybe have some way of tracking number/type of coins available in cash register -->
+### Technologies Used
+
+* [ASP.NET](https://www.asp.net/)
+
+This project was built using [Atom](https://atom.io/) - an open-source, hackable code editor running on the Electron framework.
+
+### Support and Contact Details
+If you encounter any bugs or would like to make suggestions regarding this project, please feel free to open an issue within the repository.
+
+
+### License
+
+This project is distributed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright © 2018 [Eric Swotinsky](https://github.com/eswotinsky) and [Faiza Husain](https://github.com/Faiza1987).
+Last updated 3/27/2018.
